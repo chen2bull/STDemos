@@ -1,0 +1,8 @@
+1.hello world                      RenderTest.java
+2.group功能                        GroupDirTest.java
+3.group                            GroupTest.java
+4.访问某个类的属性                 AccessProps.java
+5.不用额外定义一个类,达到4的效果   AggregateProps.java(聚合属性)
+6.数组和separator                  MultiValued.java
+
+

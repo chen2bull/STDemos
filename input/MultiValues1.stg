@@ -1,0 +1,6 @@
+// ./input/tmp/MultiValues1.stg
+test(name) ::= "<name:bracket(); separator=\", \">"
+bracket(x) ::= "[<x>]"
+// 以上两行的作用,和test(name) ::= "<name:{x | [<x>]}; separator=\", \">"的作用相同
+// 后者用匿名模板
+// Anonymous template {x | [<x>]} is the in-lined version of bracket().
